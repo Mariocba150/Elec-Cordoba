@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+    <title>Presupuestos</title>
+</head>
+<body>
+<div class="grid">
+    <div class="contenedor">
+        <header class="cabecera">
+            <div class="cabecera__titulo">
+                <a href="../index.html">
+                    <img class="cabecera__titulo__logo" src="../images/logo.png" alt="logo">
+                </a>
+                <h1 class="cabecera__titulo__h1">Elec - Córdoba</h1>
+            </div>
+
+    <nav class="cabecera__nav">
+        <ul class="cabecera__nav__lista">
+            <li class="cabecera__nav__lista__item cabecera__nav__lista__item__espacio">
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li class="cabecera__nav__lista__item">
+                <a href="empresa.html">Nuestra Empresa</a>
+            </li>
+            <li class="cabecera__nav__lista__item">
+                <a href="servicios.html">Servicios</a>
+            </li>
+            <li class="cabecera__nav__lista__item">
+                <a href="presupuestos.html">Presupuestos</a>
+            </li>
+            <li class="cabecera__nav__lista__item">
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contenido">
+<section class="contenido__sectionPresupuesto">
+    <div class="contenido__sectionPresupuesto__ContenedorUno">
+        <p class="contenido__sectionPresupuesto__ContenedorUno__parrafoUno">
+            Completa el siguiente formulario y uno de nuestros expertos se contactara a la brevedad para asesorarte y ofrecerte la mejor solución a tus necesidades. Estamos para ayudarte.
+        </p>
+
+        <form action="mailto:eleccordoba@gmail.com" method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
+
+            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1">
+                <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__A">
+                    <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__A__Nombre">
+                        <label for="Nombre" class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__Inline">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
+                    </div>
+                    <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__A__Apellido">
+                        <label for="Apellido" class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__Inline">Apellido</label>
+                        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
+                    </div>
+                </div>
+                <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__B">
+                    <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__B__Telefono">
+                        <label for="Telefono" class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__Inline">Teléfono
+                        </label>
+                        <input type="tel" name="Telefono" id="Telefono" placeholder="Ingrese su Teléfono">
+                    </div>
+                    <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__B__Correo">
+                        <label for="Correo" class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__Inline" id="Correo_text">Correo</label>
+                        <input type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__2">
+                <div clas="contenido__sectionPresupuesto__ContenedorUno__formulario__2__A">                
+                    <p class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Trabajo">TIPO DE TRABAJO</p>
+                    <div>
+                        <input type="checkbox" id="Instalacion"><label for="Instalacion" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Trabajo__Inline">Instalación</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Reparacion"><label for="Reparacion" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Trabajo__Inline">Reparación</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Certificacion"><label for="Certificacion" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Trabajo__Inline">Certificación</label>
+                    </div>
+                </div>
+
+                <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__B">
+                    <p class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Circuito">TIPO DE CIRCUITO
+                    </p>
+                    <div>
+                        <input type="radio" id="Monofasica"><label for="Monofasica" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Circuito__Inline">Monofásica</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Trifasica"><label for="Trifasica" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Circuito__Inline">Trifásica</label>                
+                    </div>
+                </div>
+                
+                <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__C">
+                    <p class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Materiales">MATERIALES ELÉCTRICOS
+                    </p>
+                    <div>
+                        <input type="radio" id="conMateriales"><label for="conMateriales" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Materiales__Inline">Con materiales incluídos</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="sinMateriales"><label for="sinMateriales" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Materiales__Inline">Sin materiales incluídos</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__3">
+                <div>
+                    <label for="Detalles" class="contenido__sectionPresupuesto__ContenedorUno__formulario__3_inline">Detalle del trabajo</label>
+                    <textarea name="Detalles" id="Detalles" cols="30" rows="10">Ingrese los detalles del trabajo a realizar</textarea>
+                    <!-- <input type="textarea" rows="20" col="50" id="Detalles" placeholder="Ingrese los detalles del trabajo a realizar" style="resize: both;"> -->
+                </div>
+            </div>
+
+            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones">
+                <input class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones__format" type="submit" value="Envíar">
+                <input class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones__format" type="reset" value="Borrar">
+            </div>            
+        </form>   
+
+        <div class="contenido__sectionPresupuesto__ContenedorUno__pagos">              
+            <div class="contenido__sectionPresupuesto__ContenedorUno__pagos__imagen">
+                <img  src="../images/medios_de_pago.jpg" alt="medios_de_pago">
+            </div>            
+        </div>
+    </div>  
+
+    <div class="contenido__sectionPresupuesto__ContenedorDos">
+        <img src="../images/banner_presupuestos.jpg" alt="banner_presupuestos">
+    </div>
+</section>
+</main>
+
+<footer class="pieDePagina">    
+    <p class="pieDePagina__mail"> 
+        <a href="mailto:eleccordoba@gmail.com">eleccordoba@gmail.com</a> 
+    </p>
+    
+    <p class="pieDePagina__copyright">© 2022 - Todos los derechos reservados</p>    
+    
+    <div class="pieDePagina__logoWhatsapp">
+        <a href="https://api.whatsapp.com/send?phone=543511111111" target="_blank" rel=“noopener noreferrer”>
+            <img src="../images/logo_whatsapp.png" alt="logo_whatsapp">
+        </a>
+    </div>   
+</footer>
+</div>
+</div>  
+</body>
+</html>
