@@ -108,7 +108,8 @@ top: 0;
     color: #e3e3e3;
     border:#3a8be7 solid 1px;
     background-color: #0045a0;
-    transition: all, .75s;
+    border-radius: 5%;
+    transition: all, 0.5s;
 }
 
 .cabecera__nav__lista__item:hover{
@@ -127,6 +128,17 @@ top: 0;
 
 .cabecera, .pieDePagina {
     background-color: #2a5f66;
+}
+
+.pieDePagina__logoWhatsapp__imagen{
+    transition: all, 0.5s;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+.pieDePagina__logoWhatsapp__imagen:hover{
+    transform: scale(2);
 }
 
 
