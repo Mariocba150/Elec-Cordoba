@@ -13,14 +13,17 @@ Color de Header #194681
     margin: 0;
     padding: 0;
 }
-html{
+body{
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}
-/* .contenedorDePagina{
+    color: #e3e3e3;
     background-color: #242525;
+}
+
+a{
     text-decoration: none;
-    color: e3e3e3;
-} */
+    color: #11d178;
+}
 
 /* Header y Footer */
 .cabecera, .pieDePagina{
