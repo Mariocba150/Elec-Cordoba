@@ -87,12 +87,13 @@ top: 0;
     padding-top: 1rem;
     width: 10rem;
     height: 5rem;
+/*Se declara animación del logo*/
     animation-name: logo_size;
     animation-timing-function: ease-in;
     animation-delay: 0.5s;
     animation-duration: 3s;
 }
-
+/* Se llama a la animación */
 @keyframes logo_size{
     0%{width: 2rem; height: 1rem;}
     50%{width: 5rem;height: 2.5rem;}
@@ -113,6 +114,7 @@ top: 0;
     align-items: stretch;
 }
 
+/* Transición del menú de navegación */
 .cabecera__nav__lista__item{
     padding: 1rem;
     margin: 1rem;
@@ -143,6 +145,7 @@ top: 0;
     background-color: #2a5f66;
 }
 
+/* Transformación del logo de Whatsapp */
 .pieDePagina__logoWhatsapp__imagen{
     transition: all, 0.5s;
     width: 3rem;
