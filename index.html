@@ -8,13 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- CSS Propio -->
     <link rel="stylesheet" href="styles/estilos.css">
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
-
+    
     <title>Inicio</title>
 </head>
 <body>
-<div class="grid">
-    <div class="contenedor">
+    <div class="contenedorDePagina">
         <header class="cabecera">
             <div class="cabecera__titulo">
                 <a href="index.html">
@@ -23,103 +21,108 @@
                 <h1 class="cabecera__titulo__h1">Córdoba</h1>
             </div>
 
-            <nav class="cabecera__nav">
-                <ul class="cabecera__nav__lista">
-                    <li class="cabecera__nav__lista__item">
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li class="cabecera__nav__lista__item">
-                        <a href="pages/empresa.html">Nuestra Empresa</a>
-                    </li>
-                    <li class="cabecera__nav__lista__item">
-                        <a href="pages/empresa.html">Servicios</a>
-                    </li>
-                    <li class="cabecera__nav__lista__item">
-                        <a href="pages/presupuestos.html">Presupuestos</a>
-                    </li>
-                    <li class="cabecera__nav__lista__item">
-                        <a href="pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+            <!-- Menú con bootstrap -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary cabecera__nav">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav cabecera__nav__lista">
+                      <li class="nav-item cabecera__nav__lista__item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item cabecera__nav__lista__item">
+                        <a class="nav-link" href="pages/empresa.html">Nuestra Empresa</a>
+                      </li>
+                      <li class="nav-item cabecera__nav__lista__item">
+                        <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item cabecera__nav__lista__item">
+                        <a class="nav-link" href="pages/presupuestos.html">Presupuestos</a>
+                      </li>
+                      <li class="nav-item cabecera__nav__lista__item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                      </li>                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>            
         </header>
 
-
         <main class="contenido">
-            <section class="contenido__seccionIndex">
-                <img class="contenido__seccionIndex__banner" src="images/banner_inicio.jpg" alt="banner_inicio">               
-    
-                <p class="contenido__seccionIndex__parrafoUno">
+            <Section class="container">
+                <div class="contenido__seccionIndex row">
+                
+                    <p class="contenido__seccionIndex__parrafoUno">
                     Somos una empresa cordobesa de electricistas, dedicados a ofrecer soluciones a negocios y particulares de la ciudad de Córdoba.  
-                </p> 
-    
-                <p class="contenido__seccionIndex__parrafoDos">
+                    </p> 
+                
+                    <p class="contenido__seccionIndex__parrafoDos">
                     Contamos con un plantel de profesionales comprometidos en brindar excelencia y calidad en nuestros  servicios. Nos gustaría que vos seas parte de nuestra cartera de clientes y que tengas una experiencia memorable con las soluciones que te proponemos.
-                </p>  
-            </section>
-
-            <section class="contenido__seccionIndexDos">    
-                <div class="contenido__seccionIndexDos__parrafoTres">
-                    <p>
-                        Podes solicitar un presupuesto totalmente gratuito completando nuestro <a href="pages/presupuestos.html">formulario</a>.
-                    </p>
-
-                    <p>
-                        También podes escribirnos en nuestras redes sociales, en la sección de <a href="pages/contacto.html">contacto</a> de la web o bien escribirnos por Whatsapp.
-                    </p>
-
-                    <p>
-                        Te esperamos en nuestro local en el centro de la ciudad.
-                    </p>
-
-                    <p>
-                        Celular: 3511111111 - Correo: eleccordoba@gmail.com
-                    </p>
+                    </p>  
+                    <img class="contenido__seccionIndex__banner" src="images/banner_inicio.jpg" alt="banner_inicio">               
                 </div>
+
+                <div class="contenido__seccionIndexDos row">    
+                    <div class="contenido__seccionIndexDos__parrafoTres col-6">
+                        <p>
+                            Podes solicitar un presupuesto totalmente gratuito completando nuestro <a href="pages/presupuestos.html">formulario</a>.
+                        </p>
+
+                        <p>
+                            También podes escribirnos en nuestras redes sociales, en la sección de <a href="pages/contacto.html">contacto</a> de la web o bien escribirnos por Whatsapp.
+                        </p>
+
+                        <p>
+                            Te esperamos en nuestro local en el centro de la ciudad.
+                        </p>
+
+                        <p>
+                            Celular: 3511111111 - Correo: eleccordoba@gmail.com
+                        </p>
+                    </div>
     
-                <div class="contenido__seccionIndexDos__redes">    
-                    <div class="contenido__seccionDos__redes__item">
-                        <a href="https://es-la.facebook.com/" target="_blank" rel=“noopener noreferrer”>
-                            <img src="images/logo_facebook.png" alt="logo_facebook"> Facebook
-                        </a>
+                    <div class="contenido__seccionIndexDos__redes col-3">    
+                        <div class="contenido__seccionIndexDos__redes__item">
+                            <a href="https://es-la.facebook.com/" target="_blank" rel=“noopener noreferrer”>
+                                <img src="images/logo_facebook.png" alt="logo_facebook"> Facebook
+                            </a>
+                        </div>
+
+                        <div class="contenido__seccionIndexDos__redes__item">
+                            <a href="https://www.instagram.com/" target="_blank" rel=“noopener noreferrer”>
+                                <img src="images/logo_instagram.png" alt="logo_instagram"> Instagram 
+                            </a>            
+                        </div>
+
+                        <div class="contenido__seccionIndexDos__redes__item">
+                            <a href="https://api.whatsapp.com/send?phone=543511111111" target="_blank" rel=“noopener noreferrer”>
+                                <img src="images/logo_whatsapp_chico.png" alt="logo_whatsapp_chico"> Whatsapp 
+                            </a>            
+                        </div>
                     </div>
 
-                    <div class="contenido__seccionIndexDos__redes__item">
-                        <a href="https://www.instagram.com/" target="_blank" rel=“noopener noreferrer”>
-                            <img src="images/logo_instagram.png" alt="logo_instagram"> Instagram 
-                        </a>            
-                    </div>
-
-                    <div class="contenido__seccionIndexDos__redes__item">
-                        <a href="https://api.whatsapp.com/send?phone=543511111111" target="_blank" rel=“noopener noreferrer”>
-                            <img src="images/logo_whatsapp_chico.png" alt="logo_whatsapp_chico"> Whatsapp 
-                        </a>            
-                    </div>
+                    <div class="contenido__seccionIndexDos_mapa contenido__seccionIndexDos_mapa__size col-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54483.75978695967!2d-64.25151016875!3d-31.4076512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29714bd1963%3A0x7cd26f9b707b87cb!2sEPEC%20%5BEdificio%20Central%5D!5e0!3m2!1ses!2sar!4v1653624213008!5m2!1ses!2sar" rel=“noopener noreferrer”>
+                        </iframe>
+                    </div>   
                 </div>
-
-                <div class="contenido__seccionIndexDos_mapa contenido__seccionIndexDos_mapa__size">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54483.75978695967!2d-64.25151016875!3d-31.4076512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29714bd1963%3A0x7cd26f9b707b87cb!2sEPEC%20%5BEdificio%20Central%5D!5e0!3m2!1ses!2sar!4v1653624213008!5m2!1ses!2sar" rel=“noopener noreferrer”>
-                    </iframe>
-                </div>   
-            </section>
+            </Section>
         </main>
 
-        <footer class="pieDePagina">    
-            <p class="pieDePagina__mail"> 
-                <a href="mailto:eleccordoba@gmail.com">eleccordoba@gmail.com</a> 
-            </p>
+        <footer class="pieDePagina">               
+                <p class="pieDePagina__mail"> 
+                    <a href="mailto:eleccordoba@gmail.com">eleccordoba@gmail.com</a> 
+                </p>
     
-            <p class="pieDePagina__copyright">© 2022 - Todos los derechos reservados</p>    
+                <p class="pieDePagina__copyright">© 2022 - Todos los derechos reservados</p>    
     
-            <div class="pieDePagina__logoWhatsapp">
-                <a href="https://api.whatsapp.com/send?phone=543511111111" target="_blank" rel=“noopener noreferrer”>
-                    <img class="pieDePagina__logoWhatsapp__imagen" src="images/logo_whatsapp.png" alt="logo_whatsapp">
-                </a>
-            </div>   
+                <div class="pieDePagina__logoWhatsapp">
+                    <a href="https://api.whatsapp.com/send?phone=543511111111" target="_blank" rel=“noopener noreferrer”>
+                        <img class="pieDePagina__logoWhatsapp__imagen" src="images/logo_whatsapp.png" alt="logo_whatsapp">
+                    </a>
+                </div>         
         </footer>
     </div>
-</div>
-<!-- Java Bootstrap -->
+<!-- Java Script Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

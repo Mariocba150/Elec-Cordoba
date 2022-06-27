@@ -5,10 +5,69 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 Color de Link #11d178
 Color de Over_Link #74d4b7
-Color de Barra de Navegación: #2a5f66
+Color de Header #194681
 */
 
+/* Generales */
 *{
     margin: 0;
     padding: 0;
+}
+html{
+    font-size: 18px;
+}
+/* .contenedorDePagina{
+    background-color: #242525;
+    text-decoration: none;
+    color: e3e3e3;
+} */
+
+/* Header y Footer */
+.cabecera, .pieDePagina{
+    background-color: #194681;
+    color: #e3e3e3;    
+}
+
+.cabecera__titulo__logo{
+    width: 10rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+}
+.cabecera__titulo__h1{
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+.cabecera__nav{
+    margin-bottom: 2rem;
+}
+
+.pieDePagina{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.pieDePagina__logoWhatsapp__imagen{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+/* Index */
+.contenido__seccionIndex__banner{
+    object-fit: cover;
+}
+.contenido__seccionIndex, .contenido__seccionIndexDos{
+    padding-bottom: 2rem;
+}
+.contenido__seccionIndexDos__redes{
+    padding-left: 5rem;
+}
+.contenido__seccionIndexDos__redes__item{
+    padding-bottom: 1rem;
 }
