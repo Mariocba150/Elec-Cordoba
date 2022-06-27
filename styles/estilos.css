@@ -1,11 +1,11 @@
 /*
-Color de Fondo #242525
-Color de Texto #e3e3e3
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
-Color de Link #11d178
-Color de Over_Link #74d4b7
-Color de Header #194681
+Color de Fondo de pégina: #242525;
+Color de fondo del Header: #194681;
+Color de Texto: #e3e3e3;
+Color de Links: #11d178
+Color de Over_Links: #94ffdf;
+Fuente: font-family: 'Roboto', sans-serif;
+Tamaño de Fuente: font-size: 18px;
 */
 
 /* Generales */
@@ -23,6 +23,10 @@ body{
 a{
     text-decoration: none;
     color: #11d178;
+}
+
+a:hover{
+    color: #94ffdf;
 }
 
 /* Header y Footer */
@@ -69,7 +73,7 @@ a{
     padding-bottom: 2rem;
 }
 .contenido__seccionIndexDos__redes{
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
 .contenido__seccionIndexDos__redes__item{
     padding-bottom: 1rem;
