@@ -78,3 +78,25 @@ a:hover{
 .contenido__seccionIndexDos__redes__item{
     padding-bottom: 1rem;
 }
+
+/* Contacto */
+.contenido__sectionContacto{
+    padding-bottom: 2rem;
+}
+.contenido__sectionContacto__dos{
+    padding-left: 7rem;
+}
+.contenido__sectionContacto__dos__redes__img{
+    padding-bottom: 1rem;
+}
+
+/* @media only-screen and(max-width:468px){
+    .contenido__sectionContacto__dos{
+        padding-bottom: 0;
+    }
+} */
+
+.contenido__sectionContacto__dos__banner__size{
+    width: 100%;
+    height: auto;
+}
