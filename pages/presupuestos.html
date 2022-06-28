@@ -58,12 +58,52 @@
         <main class="contenido">
             <section class="contenido__sectionPresupuesto">
                 <div class="contenido__sectionPresupuesto__ContenedorUno">
-                    <p class="contenido__sectionPresupuesto__ContenedorUno__parrafoUno">
+                    <p class="contenido__sectionPresupuesto__ContenedorUno__parrafo">
                         Completa el siguiente formulario y uno de nuestros expertos se contactara a la brevedad para asesorarte y ofrecerte la mejor solución a tus necesidades. Estamos para ayudarte.
                     </p>
 
-        <form action="mailto:eleccordoba@gmail.com" method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
+                    <form action="mailto:eleccordoba@gmail.com" method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
+                    <div>
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos">
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Nombre">
+                                <label for="presupuestoNombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="presupuestoNombre" placeholder="Ingresa tu nombre">
+                            </div>                            
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Apellido">
+                                <label for="presupuestoApellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="presupuestoApellido" placeholder="Ingresa tu apellido">
+                            </div>
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Telefono">
+                                <label for="presupuestoTelefono" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="presupuestoTelefono" placeholder="Ingresa tu teléfono">
+                            </div>
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Correo">
+                                <label for="presupuestoCorreo" class="form-label">Correo</label>
+                                <input type="email" class="form-control" id="presupuestoCorreo" placeholder="Ingresa tu correo">
+                            </div>
+                        </div>
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__tipoDeTrabajo">
 
+                        </div>
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__detalles">
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__detalles__area">
+                                <label for="presupuestoDetalles" class="form-label">Detalles del trabajo</label>
+                                <textarea class="form-control" id="presupuestoDetalles" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="reset" class="btn btn-primary">Borrar todo</button>
+                        </div>
+                    </div>
+                    </form>
+
+
+
+
+
+        <!-- <form action="mailto:eleccordoba@gmail.com" method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1">
                 <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__A">
                     <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__1__A__Nombre">
@@ -86,9 +126,11 @@
                         <input type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo">
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__2">
+
+
+            <!-- <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__2">
                 <div clas="contenido__sectionPresupuesto__ContenedorUno__formulario__2__A">                
                     <p class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Trabajo">TIPO DE TRABAJO</p>
                     <div>
@@ -107,8 +149,8 @@
                     </p>
                     <div>
                         <input type="radio" id="Monofasica"><label for="Monofasica" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Circuito__Inline">Monofásica</label>
-                    </div>
-                    <div>
+                    </div> -->
+                    <!-- <div>
                         <input type="radio" id="Trifasica"><label for="Trifasica" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Circuito__Inline">Trifásica</label>                
                     </div>
                 </div>
@@ -123,21 +165,21 @@
                         <input type="radio" id="sinMateriales"><label for="sinMateriales" class="contenido__sectionPresupuesto__ContenedorUno__formulario__2__Materiales__Inline">Sin materiales incluídos</label>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__3">
+            <!-- <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__3">
                 <div>
                     <label for="Detalles" class="contenido__sectionPresupuesto__ContenedorUno__formulario__3_inline">Detalle del trabajo</label>
                     <textarea name="Detalles" id="Detalles" cols="30" rows="10">Ingrese los detalles del trabajo a realizar</textarea>
                     <!-- <input type="textarea" rows="20" col="50" id="Detalles" placeholder="Ingrese los detalles del trabajo a realizar" style="resize: both;"> -->
-                </div>
-            </div>
+                <!-- </div>
+            </div> --> -->
 
-            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones">
+            <!-- <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones">
                 <input class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones__format" type="submit" value="Envíar">
                 <input class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones__format" type="reset" value="Borrar">
             </div>            
-        </form>   
+        </form>    -->
 
         <div class="contenido__sectionPresupuesto__ContenedorUno__pagos">              
             <div class="contenido__sectionPresupuesto__ContenedorUno__pagos__imagen">
