@@ -15,7 +15,7 @@ Tamaño de Fuente: font-size: 18px;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #e3e3e3;
     background-color: #242525;
 }
@@ -128,4 +128,20 @@ a:hover{
 
 .contenido__sectionPresupuesto__ContenedorDos__bannerPresupuestos{
     margin-right: 2rem;
+}
+
+/* Nuestra Empresa */
+
+.contenido__sectionServiciosEmpresa__imagen{
+    width: 25rem;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.contenido__sectionServiciosEmpresa__parrafo{
+    margin-top: 3.5rem;
+}
+
+.contenido__sectionServiciosEmpresa{
+    margin-bottom: 2rem;
 }
