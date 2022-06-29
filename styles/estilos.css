@@ -96,3 +96,36 @@ a:hover{
     width: 100%;
     height: auto;
 }
+
+.contenido__sectionContacto__uno__formulario__botones__itemA{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenido__sectionContacto__uno__formulario__botones__itemB{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Presupuestos */
+
+.contenido__sectionPresupuesto__ContenedorUno__formulario__detalles{
+    padding-top: 1rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item1{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item2{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorUno__pagos{
+    margin-bottom: 2rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorDos__bannerPresupuestos{
+    margin-right: 2rem;
+}

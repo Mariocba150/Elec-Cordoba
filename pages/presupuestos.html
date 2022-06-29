@@ -56,7 +56,7 @@
         </header>
 
         <main class="contenido">
-            <section class="contenido__sectionPresupuesto d-flex flex-row justify-content-center">
+            <section class="contenido__sectionPresupuesto d-flex flex-row justify-content-evenly">
                 <!-- Bootstrap grid -->
                 <div class="contenido__sectionPresupuesto__ContenedorUno container">
                     <p class="contenido__sectionPresupuesto__ContenedorUno__parrafo row">
@@ -67,22 +67,28 @@
                     
                         <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos">
                             <div class="row">
-                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Nombre col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Nombre col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoNombre" class="form-label">Nombre</label>
                                 <input type="text" class="form-control" id="presupuestoNombre" placeholder="Ingresa tu nombre">
-                            </div>                            
-                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Apellido col-lg-6 col-md-6 col-sm-12">
+                            </div>
+
+                            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-2 col-md-2 col-sm-12"> </div>
+
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Apellido col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoApellido" class="form-label">Apellido</label>
                                 <input type="text" class="form-control" id="presupuestoApellido" placeholder="Ingresa tu apellido">
                             </div>
                             </div>
 
                             <div class="row">
-                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Telefono col-lg-6 col-md-6 col-sm-12">
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Telefono col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoTelefono" class="form-label">Teléfono</label>
                                 <input type="tel" class="form-control" id="presupuestoTelefono" placeholder="Ingresa tu teléfono">
                             </div>
-                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Correo col-lg-6 col-md-6 col-sm-12">
+
+                            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-2 col-md-2 col-sm-12"> </div>
+
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Correo col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoCorreo" class="form-label">Correo</label>
                                 <input type="email" class="form-control" id="presupuestoCorreo" placeholder="Ingresa tu correo">
                             </div>
@@ -147,22 +153,24 @@
                         </div>
 
                         <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__detalles row">
-                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__detalles__area">
+                            <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__detalles__area col-lg-6 col-md-6 col-sm-12">
                                 <label for="presupuestoDetalles" class="form-label">Detalles del trabajo</label>
                                 <textarea class="form-control" id="presupuestoDetalles" rows="3"></textarea>
                             </div>
+
+                            <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-6 col-md-6 col-sm-12"> </div>
                         </div>
 
                         <div class="row">
-                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones col-lg-6 col-md-6 col-sm-12">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                            <button type="reset" class="btn btn-primary">Borrar todo</button>
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__botones col-lg-8 col-md-8 col-sm-12">
+                            <button type="submit" class="btn btn-primary contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item1">Enviar</button>
+                            <button type="reset" class="btn btn-primary contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item2">Borrar todo</button>
                         </div>
                     
                     </form>        
 
-                        <div class="contenido__sectionPresupuesto__ContenedorUno__pagos col-lg-6 col-md-6 col-sm-12">              
-                            <div class="contenido__sectionPresupuesto__ContenedorUno__pagos__imagen">
+                        <div class="contenido__sectionPresupuesto__ContenedorUno__pagos col-lg-4 col-md-4 col-sm-12">              
+                            <div class="contenido__sectionPresupuesto__ContenedorUno__pagos__imagen ">
                                 <img  src="../images/medios_de_pago.jpg" alt="medios_de_pago">
                             </div>            
                         </div>
@@ -170,7 +178,7 @@
                 </div>  
 
                 <div class="contenido__sectionPresupuesto__ContenedorDos">
-                    <img src="../images/banner_presupuestos.jpg" alt="banner_presupuestos">
+                    <img class="contenido__sectionPresupuesto__ContenedorDos__bannerPresupuestos" src="../images/banner_presupuestos.jpg" alt="banner_presupuestos">
                 </div>
             </section>
         </main>
