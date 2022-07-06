@@ -1,19 +1,9 @@
-@charset "UTF-8";
-/*
-Color de Fondo de pégina: #242525;
-Color de fondo del Header: #194681;
-Color de Texto: #e3e3e3;
-Color de Links: #11d178
-Color de Over_Links: #94ffdf;
-Fuente: font-family: 'Roboto', sans-serif;
-Tamaño de Fuente: font-size: 18px;
-*/
-/* Generales */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Base */
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -30,8 +20,8 @@ a:hover {
   color: #94ffdf;
 }
 
-/* Header y Footer */
-.cabecera, .pieDePagina {
+/* Component */
+.cabecera {
   background-color: #194681;
   color: #e3e3e3;
 }
@@ -52,6 +42,11 @@ a:hover {
 }
 
 .pieDePagina {
+  background-color: #194681;
+  color: #e3e3e3;
+}
+
+.pieDePagina {
   width: 100%;
   height: auto;
   display: flex;
@@ -68,7 +63,6 @@ a:hover {
   border-radius: 10%;
 }
 
-/* Index */
 .contenido__seccionIndex__banner {
   object-fit: cover;
   animation-name: efecto_banner;
@@ -105,7 +99,6 @@ a:hover {
   padding-bottom: 1rem;
 }
 
-/* Contacto */
 .contenido__sectionContacto {
   padding-bottom: 2rem;
 }
@@ -133,7 +126,6 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-/* Presupuestos */
 .contenido__sectionPresupuesto__ContenedorUno__formulario__detalles {
   padding-top: 1rem;
 }
@@ -156,7 +148,6 @@ a:hover {
   margin-right: 2rem;
 }
 
-/* Empresa */
 .contenido__sectionServiciosEmpresa__imagen {
   width: 25rem;
   border-radius: 5%;
@@ -171,7 +162,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-/* Servicios */
 .contenido__carrousel {
   margin: 2rem 2rem 2rem 9rem;
 }
