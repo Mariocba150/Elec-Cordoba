@@ -1,0 +1,173 @@
+/*
+Color de Fondo de pégina: #242525;
+Color de fondo del Header: #194681;
+Color de Texto: #e3e3e3;
+Color de Links: #11d178
+Color de Over_Links: #94ffdf;
+Fuente: font-family: 'Roboto', sans-serif;
+Tamaño de Fuente: font-size: 18px;
+*/
+
+/* Generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #e3e3e3;
+    background-color: #242525;
+}
+
+a{
+    text-decoration: none;
+    color: #11d178;
+}
+
+a:hover{
+    color: #94ffdf;
+}
+
+/* Header y Footer */
+.cabecera, .pieDePagina{
+    background-color: #194681;
+    color: #e3e3e3;    
+}
+
+.cabecera__titulo__logo{
+    width: 10rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+}
+.cabecera__titulo__h1{
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+.cabecera__nav{
+    margin-bottom: 2rem;
+}
+
+.pieDePagina{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.pieDePagina__logoWhatsapp__imagen{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+
+/* Index */
+.contenido__seccionIndex__banner{
+    object-fit: cover;
+    animation-name: efecto_banner;    
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes efecto_banner {
+    0%{width: 0%;}
+    25%{width: 25%;}
+    50%{width: 50%;}
+    75%{width: 75%;}
+    100%{width: 100%;}
+}
+
+.contenido__seccionIndex, .contenido__seccionIndexDos{
+    padding-bottom: 2rem;
+}
+.contenido__seccionIndexDos__redes{
+    padding-left: 4rem;
+}
+.contenido__seccionIndexDos__redes__item{
+    padding-bottom: 1rem;
+}
+
+/* Contacto */
+.contenido__sectionContacto{
+    padding-bottom: 2rem;
+}
+
+.contenido__sectionContacto__uno{
+    padding-bottom: 2rem;
+}
+
+.contenido__sectionContacto__dos__redes__img{
+    padding-bottom: 1rem;
+}
+
+.contenido__sectionContacto__dos__banner{
+    width: 100%;
+    height: auto;
+}
+
+.contenido__sectionContacto__uno__formulario__botones__itemA{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenido__sectionContacto__uno__formulario__botones__itemB{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Presupuestos */
+.contenido__sectionPresupuesto__ContenedorUno__formulario__detalles{
+    padding-top: 1rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item1{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.contenido__sectionPresupuesto__ContenedorUno__formulario__botones__item2{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorUno__pagos{
+    margin-bottom: 2rem;
+}
+
+.contenido__sectionPresupuesto__ContenedorDos__bannerPresupuestos{
+    margin-right: 2rem;
+}
+
+/* Empresa */
+.contenido__sectionServiciosEmpresa__imagen{
+    width: 25rem;
+    border-radius: 5%;
+    margin: 1rem;
+}
+
+.contenido__sectionServiciosEmpresa__parrafo{
+    margin-top: 3.5rem;
+}
+
+.contenido__sectionServiciosEmpresa{
+    margin-bottom: 2rem;
+}
+
+/* Servicios */
+.contenido__carrousel{
+    margin: 2rem 2rem 2rem 9rem;
+}
+
+.contenido__carrousel p, .contenido__carrousel h5 {
+    color: #000000;
+    font-weight:600;
+    text-shadow: 1px 1px 3px #e3e3e3;
+}
+
+.contenido__carrousel__img{
+    opacity: 0.4;
+    border-radius: 5%;
+}
