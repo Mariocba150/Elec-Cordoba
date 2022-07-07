@@ -1,18 +1,19 @@
 .cabecera{
     background-color: #194681;
-    color: #e3e3e3;    
+    color: #e3e3e3;
+    
+    &__titulo__logo{
+        width: 10rem;
+        height: 5rem;
+        padding-bottom: 1rem;
+    }
+    &__titulo__h1{
+        display: inline-block;
+        padding-top: 1rem;
+    }
+    
+    &__nav{
+        margin-bottom: 2rem;
+    }
 }
 
-.cabecera__titulo__logo{
-    width: 10rem;
-    height: 5rem;
-    padding-bottom: 1rem;
-}
-.cabecera__titulo__h1{
-    display: inline-block;
-    padding-top: 1rem;
-}
-
-.cabecera__nav{
-    margin-bottom: 2rem;
-}

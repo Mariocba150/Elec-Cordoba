@@ -1,26 +1,26 @@
 .contenido__sectionContacto{
     padding-bottom: 2rem;
-}
 
-.contenido__sectionContacto__uno{
-    padding-bottom: 2rem;
-}
+    &__uno{
+        padding-bottom: 2rem;
 
-.contenido__sectionContacto__dos__redes__img{
-    padding-bottom: 1rem;
-}
+        &__formulario__botones__itemA{
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        &__formulario__botones__itemB{
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
 
-.contenido__sectionContacto__dos__banner{
-    width: 100%;
-    height: auto;
-}
-
-.contenido__sectionContacto__uno__formulario__botones__itemA{
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.contenido__sectionContacto__uno__formulario__botones__itemB{
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+    &__dos__redes__img{
+        padding-bottom: 1rem;
+    }
+    
+    &__dos__banner{
+        width: 100%;
+        height: auto;
+    }
 }

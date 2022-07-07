@@ -25,18 +25,15 @@ a:hover {
   background-color: #194681;
   color: #e3e3e3;
 }
-
 .cabecera__titulo__logo {
   width: 10rem;
   height: 5rem;
   padding-bottom: 1rem;
 }
-
 .cabecera__titulo__h1 {
   display: inline-block;
   padding-top: 1rem;
 }
-
 .cabecera__nav {
   margin-bottom: 2rem;
 }
@@ -44,9 +41,6 @@ a:hover {
 .pieDePagina {
   background-color: #194681;
   color: #e3e3e3;
-}
-
-.pieDePagina {
   width: 100%;
   height: auto;
   display: flex;
@@ -56,20 +50,21 @@ a:hover {
   flex-wrap: wrap;
   padding: 1rem;
 }
-
 .pieDePagina__logoWhatsapp__imagen {
   width: 3rem;
   height: 3rem;
   border-radius: 10%;
 }
 
+.contenido__seccionIndex {
+  padding-bottom: 2rem;
+}
 .contenido__seccionIndex__banner {
   object-fit: cover;
   animation-name: efecto_banner;
   animation-timing-function: ease-in;
   animation-duration: 1s;
 }
-
 @keyframes efecto_banner {
   0% {
     width: 0%;
@@ -87,14 +82,13 @@ a:hover {
     width: 100%;
   }
 }
-.contenido__seccionIndex, .contenido__seccionIndexDos {
+
+.contenido__seccionIndexDos {
   padding-bottom: 2rem;
 }
-
 .contenido__seccionIndexDos__redes {
   padding-left: 4rem;
 }
-
 .contenido__seccionIndexDos__redes__item {
   padding-bottom: 1rem;
 }
@@ -102,28 +96,23 @@ a:hover {
 .contenido__sectionContacto {
   padding-bottom: 2rem;
 }
-
 .contenido__sectionContacto__uno {
   padding-bottom: 2rem;
 }
-
-.contenido__sectionContacto__dos__redes__img {
-  padding-bottom: 1rem;
-}
-
-.contenido__sectionContacto__dos__banner {
-  width: 100%;
-  height: auto;
-}
-
 .contenido__sectionContacto__uno__formulario__botones__itemA {
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
-
 .contenido__sectionContacto__uno__formulario__botones__itemB {
   margin-left: 2rem;
   margin-bottom: 1rem;
+}
+.contenido__sectionContacto__dos__redes__img {
+  padding-bottom: 1rem;
+}
+.contenido__sectionContacto__dos__banner {
+  width: 100%;
+  height: auto;
 }
 
 .contenido__sectionPresupuesto__ContenedorUno__formulario__detalles {
@@ -148,18 +137,16 @@ a:hover {
   margin-right: 2rem;
 }
 
+.contenido__sectionServiciosEmpresa {
+  margin-bottom: 2rem;
+}
 .contenido__sectionServiciosEmpresa__imagen {
   width: 25rem;
   border-radius: 5%;
   margin: 1rem;
 }
-
 .contenido__sectionServiciosEmpresa__parrafo {
   margin-top: 3.5rem;
-}
-
-.contenido__sectionServiciosEmpresa {
-  margin-bottom: 2rem;
 }
 
 .contenido__carrousel {

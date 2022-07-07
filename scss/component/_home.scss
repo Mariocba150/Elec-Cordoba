@@ -1,24 +1,30 @@
-.contenido__seccionIndex__banner{
-    object-fit: cover;
-    animation-name: efecto_banner;    
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
-}
-
-@keyframes efecto_banner {
-    0%{width: 0%;}
-    25%{width: 25%;}
-    50%{width: 50%;}
-    75%{width: 75%;}
-    100%{width: 100%;}
-}
-
-.contenido__seccionIndex, .contenido__seccionIndexDos{
+.contenido__seccionIndex{
     padding-bottom: 2rem;
+
+    &__banner{
+        object-fit: cover;
+        animation-name: efecto_banner;    
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+    }
+    
+    @keyframes efecto_banner {
+        0%{width: 0%;}
+        25%{width: 25%;}
+        50%{width: 50%;}
+        75%{width: 75%;}
+        100%{width: 100%;}
+    }
 }
-.contenido__seccionIndexDos__redes{
-    padding-left: 4rem;
-}
-.contenido__seccionIndexDos__redes__item{
-    padding-bottom: 1rem;
+
+.contenido__seccionIndexDos{
+    padding-bottom: 2rem;
+
+    &__redes{
+        padding-left: 4rem;
+    
+        &__item{
+            padding-bottom: 1rem;
+        }
+    }
 }
