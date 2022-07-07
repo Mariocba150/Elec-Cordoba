@@ -3,13 +3,13 @@ body{
     font-size: $fontsize;
     color: $fontcolor;
     background-color: $bgcolor-pagina;
-}
 
-a{
-    text-decoration: none;
-    color: $linkcolor;
-}
-
-a:hover{
-    color: $link_overcolor;
+    a{
+        text-decoration: none;
+        color: $linkcolor;
+        
+        &:hover{
+            color: $link_overcolor;
+        }    
+    }
 }
