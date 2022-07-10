@@ -2,9 +2,7 @@
     @extend %colorbar;
     
     &__titulo__logo{
-        width: 10rem;
-        height: 5rem;
-        padding-bottom: 1rem;
+        @include logo (10rem,5rem,1rem)
     }
     &__titulo__h1{
         display: inline-block;

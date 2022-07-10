@@ -1,0 +1,5 @@
+@mixin logo ($ancho_logo, $alto_logo, $espacio_logo) {
+        width: $ancho_logo;
+        height: $alto_logo;
+        padding-bottom: $espacio_logo;    
+}
