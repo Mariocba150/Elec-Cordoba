@@ -18,11 +18,12 @@ body a:hover {
   color: #94ffdf;
 }
 
-/* Component */
-.cabecera {
+.pieDePagina, .cabecera {
   background-color: #194681;
   color: #e3e3e3;
 }
+
+/* Component */
 .cabecera__titulo__logo {
   width: 10rem;
   height: 5rem;
@@ -37,8 +38,6 @@ body a:hover {
 }
 
 .pieDePagina {
-  background-color: #194681;
-  color: #e3e3e3;
   width: 100%;
   height: auto;
   display: flex;

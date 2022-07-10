@@ -1,6 +1,5 @@
 .cabecera{
-    background-color: #194681;
-    color: #e3e3e3;
+    @extend %colorbar;
     
     &__titulo__logo{
         width: 10rem;

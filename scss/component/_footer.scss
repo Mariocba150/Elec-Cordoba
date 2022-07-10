@@ -1,8 +1,7 @@
 .pieDePagina{
-    background-color: #194681;
-    color: #e3e3e3;    
-    width: 100%;
-    height: auto;
+    @extend %colorbar;  
+    width: map-get($flexbox_size, ancho);
+    height: map-get($flexbox_size, alto);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

@@ -4,14 +4,16 @@
 }
 
 /* Base */
-@import 'base/_variables.scss';
-@import 'base/_generales.scss';
+@import 'base/variables';
+@import 'base/generales';
+@import 'base/extends';
+@import 'base/mapas';
 
 /* Component */
-@import 'component/_header.scss';
-@import 'component/_footer.scss';
-@import 'component/_home.scss';
-@import 'component/_contacto.scss';
-@import 'component/_presupuestos.scss';
-@import 'component/_empresa.scss';
-@import 'component/_servicios.scss';
+@import 'component/header';
+@import 'component/footer';
+@import 'component/home';
+@import 'component/contacto';
+@import 'component/presupuestos';
+@import 'component/empresa';
+@import 'component/servicios';
