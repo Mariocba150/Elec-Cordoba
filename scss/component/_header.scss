@@ -2,7 +2,7 @@
     @extend %colorbar;
     
     &__titulo__logo{
-        @include logo (10rem,5rem,1rem)
+        @include logo (10rem,4rem,0rem)
     }
     &__titulo__p{
         display: inline-block;
