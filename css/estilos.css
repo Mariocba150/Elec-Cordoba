@@ -18,6 +18,10 @@ body a {
 body a:hover {
   color: #94ffdf;
 }
+body .contenido__h1 {
+  margin-bottom: 2rem;
+  text-decoration: dotted;
+}
 
 .pieDePagina, .cabecera {
   background-color: #194681;
@@ -30,9 +34,10 @@ body a:hover {
   height: 5rem;
   padding-bottom: 1rem;
 }
-.cabecera__titulo__h1 {
+.cabecera__titulo__p {
   display: inline-block;
-  padding-top: 1rem;
+  font-size: 20px;
+  vertical-align: bottom;
 }
 .cabecera__nav {
   margin-bottom: 2rem;
@@ -132,7 +137,8 @@ body a:hover {
 }
 
 .contenido__sectionPresupuesto__ContenedorDos__bannerPresupuestos {
-  margin-right: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .contenido__sectionServiciosEmpresa {
@@ -145,6 +151,11 @@ body a:hover {
 }
 .contenido__sectionServiciosEmpresa__parrafo {
   margin-top: 3.5rem;
+}
+
+.contenido__h1-center {
+  text-align: center;
+  padding-right: 3rem;
 }
 
 .contenido__carrousel {

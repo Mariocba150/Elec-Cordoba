@@ -4,9 +4,10 @@
     &__titulo__logo{
         @include logo (10rem,5rem,1rem)
     }
-    &__titulo__h1{
+    &__titulo__p{
         display: inline-block;
-        padding-top: 1rem;
+        font-size: 20px;
+        vertical-align: bottom;
     }
     
     &__nav{
