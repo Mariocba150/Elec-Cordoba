@@ -69,34 +69,34 @@
                         Completa el siguiente formulario y uno de nuestros expertos se contactara a la brevedad para asesorarte y ofrecerte la mejor solución a tus necesidades. Estamos para ayudarte.
                     </p>
 
-                    <form action="mailto:eleccordoba@gmail.com" method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
+                    <form action='../php/presupuestos.php' method="post" enctype="text/plain" class="contenido__sectionPresupuesto__ContenedorUno__formulario">
                     
                         <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos">
                             <div class="row">
                             <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Nombre col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoNombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="presupuestoNombre" placeholder="Ingresa tu nombre">
+                                <input type="text" class="form-control" id="presupuestoNombre" name="presupuestoNombre" placeholder="Ingresa tu nombre">
                             </div>
 
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-2 col-md-2 col-sm-12"> </div>
 
                             <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Apellido col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoApellido" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" id="presupuestoApellido" placeholder="Ingresa tu apellido">
+                                <input type="text" class="form-control" id="presupuestoApellido" name="presupuestoApellido" placeholder="Ingresa tu apellido">
                             </div>
                             </div>
 
                             <div class="row">
                             <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Telefono col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoTelefono" class="form-label">Teléfono</label>
-                                <input type="tel" class="form-control" id="presupuestoTelefono" placeholder="Ingresa tu teléfono">
+                                <input type="tel" class="form-control" id="presupuestoTelefono" name="presupuestoTelefono" placeholder="Ingresa tu teléfono">
                             </div>
 
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-2 col-md-2 col-sm-12"> </div>
 
                             <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__datos__Correo col-lg-5 col-md-5 col-sm-12">
                                 <label for="presupuestoCorreo" class="form-label">Correo</label>
-                                <input type="email" class="form-control" id="presupuestoCorreo" placeholder="Ingresa tu correo">
+                                <input type="email" class="form-control" id="presupuestoCorreo" name="presupuestoCorreo" placeholder="Ingresa tu correo">
                             </div>
                             </div>
                         </div>
@@ -106,19 +106,19 @@
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__trabajo__tipo col-lg-4 col-md-4 col-sm-12">
                                 <p>TIPO DE TRABAJO</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="instalacion">
+                                    <input class="form-check-input" type="checkbox" value="" id="instalacion" name="instalacion">
                                     <label class="form-check-label" for="instalacion">
                                         Instalación
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="reparacion">
+                                    <input class="form-check-input" type="checkbox" value="" id="reparacion" name="reparacion">
                                     <label class="form-check-label" for="reparacion">
                                         Reparación
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="certificacion">
+                                    <input class="form-check-input" type="checkbox" value="" id="certificacion" name="certificacion">
                                     <label class="form-check-label" for="certificacion">
                                         Certificación
                                     </label>
@@ -128,13 +128,13 @@
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__trabajo__circuito col-lg-4 col-md-4 col-sm-12">
                                 <p>TIPO DE CIRCUITO</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="monofasica">
+                                    <input class="form-check-input" type="checkbox" id="monofasica" name="monofasica">
                                     <label class="form-check-label" for="monofasica">
                                         Monofásica
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="trifasica">
+                                    <input class="form-check-input" type="checkbox" id="trifasica" name="trifasica">
                                     <label class="form-check-label" for="trifasica">
                                         Trifásica
                                     </label>
@@ -144,13 +144,13 @@
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__trabajo__materiales col-lg-4 col-md-4 col-sm-12">
                                 <p>MATERIALES ELECTRICOS</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="conMateriales">
+                                    <input class="form-check-input" type="radio" name="conMateriales" id="conMateriales">
                                     <label class="form-check-label" for="conMateriales">
                                         Con materiales incluídos
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="sinMateriales">
+                                    <input class="form-check-input" type="radio" name="sinMateriales" id="sinMateriales">
                                     <label class="form-check-label" for="sinMateriales">
                                         Sin materiales incluídos
                                     </label>
@@ -161,7 +161,7 @@
                         <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__detalles row">
                             <div class="mb-3 contenido__sectionPresupuesto__ContenedorUno__formulario__detalles__area col-lg-6 col-md-6 col-sm-12">
                                 <label for="presupuestoDetalles" class="form-label">Detalles del trabajo</label>
-                                <textarea class="form-control" id="presupuestoDetalles" rows="3"></textarea>
+                                <textarea class="form-control" id="presupuestoDetalles" name="presupuestoDetalles" rows="3"></textarea>
                             </div>
 
                             <div class="contenido__sectionPresupuesto__ContenedorUno__formulario__datos__espacio col-lg-6 col-md-6 col-sm-12"> </div>
