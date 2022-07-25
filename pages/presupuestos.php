@@ -40,7 +40,7 @@ $destinatario = 'mariocba150@gmail.com';
 $asunto = 'Solicitud de Presupuesto Elec Córdoba';
 
 //Ejecuto las funciones
-mail ($destinatario, $asunto, utf8_decode($mensajePresupuesto), $header)
+mail ($destinatario, $asunto, utf8_decode($mensajePresupuesto), $header);
 header("Location:mensaje.html");
 
 ?>
