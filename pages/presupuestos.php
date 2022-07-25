@@ -14,6 +14,12 @@ $conMateriales = $_POST['conMateriales'];
 $sinMateriales = $_POST['sinMateriales'];
 $trabajoDetalles = $_POST['presupuestoDetalles'];
 
+//Defino el encabezado del mail
+$header = 'From: ' . $emailPresup . ",\r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . ",\r\n";
+$header .= "Mime-Version: 1.0 \r\n";
+$header .= "Content-Type: text/plain";
+
 //Defino el cuerpo del mail
 $mensajePresupuesto = "El nombre de quien envió el formulario es: " . $nombrePresup . ",\r\n";
 $mensajePresupuesto .= " Su apellido es: " . $apellidoPresup . ",\r\n";
@@ -35,6 +41,6 @@ $asunto = 'Solicitud de Presupuesto Elec Córdoba';
 
 //Ejecuto las funciones
 mail ($destinatario, $asunto, utf8_decode($mensajePresupuesto), $header)
-header('Location:../pages/mensaje.html');
+header("Location:mensaje.html");
 
 ?>
