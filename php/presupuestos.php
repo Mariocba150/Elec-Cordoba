@@ -1,5 +1,6 @@
 <?php
 
+//Defino variables para guardar información del formulario que se enviará por mail
 $nombrePresup = $_POST['presupuestoNombre'];
 $apellidoPresup = $_POST['presupuestoApellido'];
 $telefonoPresup = $_POST['presupuestoTelefono'];
@@ -13,7 +14,9 @@ $conMateriales = $_POST['conMateriales'];
 $sinMateriales = $_POST['sinMateriales'];
 $trabajoDetalles = $_POST['presupuestoDetalles'];
 
-$mensajePresupuesto = "Este mensaje fue enviado por " . $nombrePresup . $apellidoPresup . ",\r\n";
+//Defino el cuerpo del mail
+$mensajePresupuesto = "El nombre de quien envió el formulario es: " . $nombrePresup . ",\r\n";
+$mensajePresupuesto .= " Su apellido es: " . $apellidoPresup . ",\r\n";
 $mensajePresupuesto .= "Su teléfono es: " . $telefonoPresup . ",\r\n";
 $mensajePresupuesto .= "Su correo electrónico es: " . $emailPresup . ",\r\n";
 $mensajePresupuesto .= "El tipo de trabajo a realizar es una instalación?" . $tipoInstalacion . ",\r\n";
@@ -26,10 +29,12 @@ $mensajePresupuesto .= "El cliente no incluye materiales?" . $sinMateriales . ",
 $mensajePresupuesto .= "El trabajo a realizar es: " . $_POST['presupuestoDetalles'] . ",\r\n";
 $mensajePresupuesto .= "Enviado el: " . date ('d,m,Y', time());
 
+//Defino los datos del destinatario
 $destinatario = 'mariocba150@gmail.com';
 $asunto = 'Solicitud de Presupuesto Elec Córdoba';
 
-mail ($destinatario, $asunto, utf8_decode($mensajePresupuesto), header)
+//Ejecuto las funciones
+mail ($destinatario, $asunto, utf8_decode($mensajePresupuesto), $header)
 header('Location:../pages/mensaje.html');
 
 ?>
