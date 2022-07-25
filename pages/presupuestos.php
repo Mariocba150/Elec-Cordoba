@@ -14,7 +14,6 @@ $conMateriales = $_POST['conMateriales'];
 $sinMateriales = $_POST['sinMateriales'];
 $trabajoDetalles = $_POST['presupuestoDetalles'];
 
-//Defino el encabezado del mail
 $header = 'From: ' . $emailPresup . ",\r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . ",\r\n";
 $header .= "Mime-Version: 1.0 \r\n";
